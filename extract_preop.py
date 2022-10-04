@@ -123,6 +123,10 @@ if __name__ == "__main__":
                 current_sleep_data = [int(float(i)) for i in line.strip().split(',') if i!='']
                 all_preop_sleep_data.append(current_sleep_data)
 
+            # If longer than 30 days, only use the latest observed 30-day data
+            if len(all_preop_sleep_data)>30:
+                all_preop_sleep_data = all_preop_sleep_data[-30:]
+
             # Save sleep data
             # Sleep data have different lengths per night
             pd_sleep = pd.DataFrame(all_preop_sleep_data)
