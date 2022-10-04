@@ -8,6 +8,10 @@ import os
 # Transpose pre-op data
 # If the pre-op length is larger than 30, use the latest observed 30-day data
 
+# Extracted data format:
+# HR: # of pre-op days * 1440
+# Step: # of pre-op days * 1440
+# Sleep: # of pre-op days * sleep duration
 
 LABELS_CSV_FILENAME = "ground_truth.csv"
 PREOP_HR_DIR = 'Preop_HR_data/'
