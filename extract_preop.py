@@ -12,6 +12,7 @@ import os
 # HR: # of pre-op days * 1440
 # Step: # of pre-op days * 1440
 # Sleep: # of pre-op days * sleep duration
+# Sleep summary: # of pre-op days * sleep summary features
 
 LABELS_CSV_FILENAME = "ground_truth.csv"
 PREOP_HR_DIR = 'Preop_HR_data/'
