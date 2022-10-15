@@ -107,7 +107,7 @@ if __name__ == "__main__":
         np.savetxt(step_save_path + ind+'.csv', step_array, fmt='%i', delimiter=",")
 
 
-        # Read Sleep summary data
+        # Read Sleep data
         # Some users may not have sleep data for the whole study
         if glob.glob(path+'*sleep.csv'):
             sleep_filename = glob.glob(path+'*sleep.csv')[0]
@@ -139,7 +139,7 @@ if __name__ == "__main__":
             pd_sleep.to_csv(sleep_save_path+ind+'.csv', index=False, header=False)
 
 
-        # Read Sleep data
+        # Read Sleep summary data
         # Some users may not have sleep data for the whole study
         if glob.glob(path+'*sleepSummary.csv'):
             sleep_summary_filename = glob.glob(path+'*sleepSummary.csv')[0]
