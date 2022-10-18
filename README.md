@@ -1,5 +1,9 @@
 # Fitbit_SurgicalPrediction
+
+
 Code for IMWUT/Ubicomp 2022 Predicting Post-Operative Complications with Wearables: A Case Study with Patients Undergoing Pancreatic Surgery
+<img width="949" alt="Screen Shot 2022-10-17 at 11 30 26 PM" src="https://user-images.githubusercontent.com/44712783/196335837-f7701363-4e3c-4a8f-af4d-a2164ce8d6bc.png">
+
 
 ## Run the code
 Preprocess Fitbit data
